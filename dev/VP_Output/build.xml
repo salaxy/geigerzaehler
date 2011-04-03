@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="." default="build">
+	<path id="build.classpath">
+		<pathelement location="classes"/>
+	</path>
+	<target name="init">
+		<mkdir dir="classes"/>
+	</target>
+	<target name="clean">
+		<delete dir="classes"/>
+	</target>
+	<target depends="init" name="build">
+		<javac srcdir="." destdir="classes" source="1.5" target="1.5" fork="yes">
+			<classpath refid="build.classpath"/>
+			<include name="Punktekonto.java"/>
+			<include name="Adresse.java"/>
+			<include name="Telefonnummer.java"/>
+			<include name="Orchestermitglied.java"/>
+			<include name="Musiker.java"/>
+			<include name="Instrument.java"/>
+			<include name="Stimmgruppe.java"/>
+			<include name="Substitut.java"/>
+			<include name="AngestellterMusiker.java"/>
+			<include name="Wunsch.java"/>
+			<include name="Punkte.java"/>
+			<include name="Diensttyp.java"/>
+			<include name="Dienst.java"/>
+			<include name="Orchesterwerk.java"/>
+			<include name="Dirigent.java"/>
+			<include name="Schlagwerkinstrument.java"/>
+			<include name="Hauptinstrument.java"/>
+			<include name="Sonderinstrument.java"/>
+			<include name="Besetzung.java"/>
+		</javac>
+	</target>
+</project>
