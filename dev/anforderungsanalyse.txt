@@ -1,0 +1,29 @@
+Hauptziel:
+
+Die Software "GeigerZähler" soll es einem Orchester
+ermöglichen sich selbst zu verwalten,
+insbesondere im Hinblick auf die Erstellung von Dienstplänen
+und der Vergabe der Instrumente und Noten.
+
+
+Nebenziele:
+Die zu übenden Kompositionen und deren Besetzung muss geplant
+werden können. 
+(sehr aufwändig)
+
+Von den Musikern können die Dienste weitgehend selbst geplant
+werden. 
+(aufwändig)
+
+Für alle beteiligten gibt es ein Punktesystem zur Abrechnung
+der Dienste.
+(wenig aufwändig)
+
+Noten und Instrumente können verwaltet werden.
+(aufwändig)
+
+Personengliederung in folgende Gruppen mit Gruppenspezifischen Merkmalen: 
+	Dirigenten, 
+	angestellte Musiker, 
+	Substitute und Orchesterwart. 
+(aufwändig)
