@@ -1,0 +1,17 @@
+USECASES
+********
+
+
+- Angestellte Musiker erfassen/andere/löschen
+
+- Substitute erfassen/andere/löschen
+
+- Dirirgent erfassen/andere/löschen
+
+- Punkte verwalten
+
+- Instrumente zuordnen/umordnen
+
+- Stimmgruppen zuordnen
+
+- Musiker suchen
